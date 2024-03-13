@@ -1,0 +1,6 @@
+[submodule "sway"]
+	path = sway
+	url = https://gitlab.com/lydia-st_dotfiles/sway
+[submodule "nvim"]
+	path = nvim
+	url = https://gitlab.com/lydia-st_dotfiles/nvim
