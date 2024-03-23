@@ -4,3 +4,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://gitlab.com/lydia-st_dotfiles/nvim
+[submodule "tmux"]
+	path = tmux
+	url = https://gitlab.com/lydia-st_dotfiles/tmux
