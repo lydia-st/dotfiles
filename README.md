@@ -20,7 +20,7 @@ suffer.
 ```bash
 git clone https://gitlab.com/ttaylor-st/dotfiles.git
 cd dotfiles
-stow -t ~ ./
+stow -t ~ src
 ```
 
 ## uninstallation
