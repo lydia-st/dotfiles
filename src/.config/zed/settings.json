@@ -1,0 +1,9 @@
+{
+  "theme": "Atelier Seaside Dark",
+  "vim_mode": true,
+  "telemetry": {
+    "metrics": false
+  },
+  "buffer_font_family": "JetBrainsMonoNF-Bold",
+  "relative_line_numbers": true
+}
