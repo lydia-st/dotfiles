@@ -1,7 +1,6 @@
 include ~/.config/sway/config.d/variables.conf
 include ~/.config/sway/config.d/output.conf
 include ~/.config/sway/config.d/binds.conf
-include ~/.config/sway/config.d/bar.conf
 include ~/.config/sway/config.d/visuals.conf
 include ~/.config/sway/config.d/autostart.conf
 
