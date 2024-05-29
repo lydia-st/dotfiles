@@ -22,7 +22,6 @@
   ],
   "sway/window": {
     "format": "{title}",
-    "max-length": 16,
     "all-outputs": true
   },
   "sway/workspaces": {
@@ -32,9 +31,6 @@
     "format": "{name}",
     "enable-bar-scroll": true,
     "disable-auto-back-and-forth": true
-  },
-  "sway/mode": {
-    "format": "<span style=\"italic\">{}</span>"
   },
   "sway/scratchpad": {
     "format": "{icon} {count}",
@@ -78,7 +74,7 @@
     "format": "󰍛 {}%"
   },
   "network": {
-    "format-wifi": "{icon} {essid} ({signalStrength}%)",
+    "format-wifi": "{icon} {essid}",
     "format-ethernet": "{icon} {ipaddr}/{cidr}",
     "tooltip-format": "{icon} {ifname} via {gwaddr}",
     "format-linked": "{icon} {ifname} (No IP)",
