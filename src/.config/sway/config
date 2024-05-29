@@ -5,3 +5,7 @@ include ~/.config/sway/config.d/visuals.conf
 include ~/.config/sway/config.d/autostart.conf
 
 include /etc/sway/config.d/*
+
+input type:keyboard {
+    xkb_layout gb
+}
