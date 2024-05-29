@@ -1,9 +1,25 @@
 {
-  "theme": "Atelier Seaside Dark",
-  "vim_mode": true,
+  "features": {
+    "copilot": false
+  },
+  "theme": "Atelier Forest Dark",
+  "vim_mode": false,
   "telemetry": {
     "metrics": false
   },
   "buffer_font_family": "JetBrainsMonoNF-Bold",
-  "relative_line_numbers": true
+  "relative_line_numbers": true,
+  "collaboration_panel": {
+    "button": false
+  },
+  "chat_panel": {
+    "button": false
+  },
+  "assistant": {
+    "enabled": false,
+    "version": "1"
+  },
+  "preview_tabs": {
+    "enabled": false
+  }
 }
