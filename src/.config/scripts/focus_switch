@@ -1,0 +1,6 @@
+#!/bin/bash
+containers=$(swaymsg -t get_tree | jq -r '.. | select(.type? == "con" and .name != null) | "\(.id) \(.name)"')
+selected_container=$(echo "$containers" | rofi -dmenu -i -p "Select container" | awk '{print $1}')
+container_id=$(echo "$selected_container" | awk '{print $1}')
+swaymsg [con_id="$container_id"] focus
+exit 0
