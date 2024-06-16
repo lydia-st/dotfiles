@@ -3,6 +3,7 @@ include ~/.config/sway/config.d/output.conf
 include ~/.config/sway/config.d/binds.conf
 include ~/.config/sway/config.d/visuals.conf
 include ~/.config/sway/config.d/autostart.conf
+include ~/.config/sway/config.d/rules.conf
 
 include /etc/sway/config.d/*
 
