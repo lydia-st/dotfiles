@@ -7,11 +7,11 @@
     "sway/workspaces",
     "sway/mode",
     "sway/scratchpad",
-    "custom/media"
-  ],
-  "modules-center": ["sway/window"],
-  "modules-right": [
+    "sway/window",
     "mpris",
+  ],
+  "modules-center": [],
+  "modules-right": [
     "pulseaudio",
     "network",
     "cpu",
@@ -61,7 +61,8 @@
   },
   "cpu": {
     "format": " {usage}%",
-    "tooltip": false
+    "tooltip": false,
+    "interval": 1
   },
   "disk": {
     "interval": 30,
@@ -71,7 +72,9 @@
     "unit": "GB"
   },
   "memory": {
-    "format": "󰍛 {}%"
+    "format": "󰍛 {}%",
+    "tooltip": false,
+    "interval": 1
   },
   "network": {
     "format-wifi": "{icon} {essid}",
