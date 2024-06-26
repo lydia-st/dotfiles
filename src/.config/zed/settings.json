@@ -1,6 +1,6 @@
 {
   "features": {
-    "copilot": false
+    "inline_completions": false
   },
   "theme": "Atelier Forest Dark",
   "vim_mode": false,
